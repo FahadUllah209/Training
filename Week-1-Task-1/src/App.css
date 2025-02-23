@@ -1,0 +1,76 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, rgb(5, 143, 185), rgb(29, 148, 203));
+}
+.heading {
+  color: #ffff;
+  margin-bottom: 20px;
+}
+
+.todo-container {
+  width: 60%;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+.add-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.add-input input {
+  width: 90%;
+  font-size: 1rem;
+  padding: 5px 3px;
+  outline: none;
+}
+
+.add-input button {
+  font-size: 1rem;
+  width: 10%;
+  padding: 0 5px;
+  background-color: rgb(22, 160, 219);
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-input button:hover {
+  transition: all ease-in-out 0.5s;
+  background-color: rgb(13, 98, 134);
+}
+
+.todo-list{
+    margin-top: 10px;
+}
+.todo-item {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  border: 1px solid gainsboro;
+  padding: 5px 10px;
+}
+.todo-item button {
+  font-size: 1rem;
+  width: 10%;
+  padding: 5px 5px;
+  background-color: rgb(22, 160, 219);
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-item p {
+  font-size: 1rem;
+  width: 90%;
+}
